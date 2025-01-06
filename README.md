@@ -1,28 +1,19 @@
-# Expense Tracker CLI
+# Expense Tracker CLi
 
-A simple command line interface (CLI) application that fetches and displays the recent activity of a GitHub user. This project is a great way to practice programming skills, API integration, and JSON data handling.
+The Expense Tracker is a command-line application designed to help users manage their personal finances by tracking their expenses. This tool allows users to add, list, and summarize their expenses for specific months, providing insights into spending habits and helping with budget management.
 
-## Features
+### Features
 
-- Accepts a GitHub username as an argument.
-- Fetches the recent activity of the user using the GitHub API.
-- Displays the activity in a readable format in the terminal.
-- Basic error handling for invalid usernames or API failures.
+- **Add Expenses**: Users can add new expenses with a description and amount.
+- **List Expenses**: View all recorded expenses in a user-friendly format.
+- **Monthly Summary**: Generate a summary of expenses for a specific month, allowing users to see how much they spent and on what.
+- **Error Handling**: The application includes robust error handling to ensure that user inputs are validated and processed correctly.
 
-## Installation
+### Technologies Used
 
-Clone this repository or download the `github_activity.py` file to your machine.
-
-Ensure that Python is installed. You can download Python from the official website: [python.org](https://www.python.org/downloads/).
-
-
-## Usage
-
-To run the CLI, use the following command in your terminal:
-
-```python3 github_activity.py <username>```
-
-Replace `<username>` with the actual GitHub username you want to check. 
+- Python
+- JSON for data storage
+- Command-line interface
 
 ## License
 
