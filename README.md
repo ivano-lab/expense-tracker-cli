@@ -15,6 +15,34 @@ The Expense Tracker is a command-line application designed to help users manage 
 - JSON for data storage
 - Command-line interface
 
+### Installation
+
+Clone this repository and run the application:
+
+```
+git clone https://github.com/ivano-lab/expense-tracker-cli
+expense_tracker.py
+```
+Make sure that you have Python 3 or higher installed on your machine. You can download Python from the official website: [python.org](https://www.python.org/downloads/).
+
+### Usage
+
+The list of commands and their expected output is shown below:
+
+- add --description "Lunch" --amount 20
+
+- add --description "Dinner" --amount 10
+
+- list
+
+- summary
+
+- delete --id 2
+
+- summary
+
+- summary --month 8
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
