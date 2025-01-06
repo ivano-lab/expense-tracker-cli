@@ -21,8 +21,13 @@ Clone this repository and run the application:
 
 ```
 git clone https://github.com/ivano-lab/expense-tracker-cli
+```
+Go to the application directory and run:
+
+```
 expense_tracker.py
 ```
+
 Make sure that you have Python 3 or higher installed on your machine. You can download Python from the official website: [python.org](https://www.python.org/downloads/).
 
 ### Usage
@@ -37,7 +42,7 @@ The list of commands and their expected output is shown below:
 
 - ```Expense added successfully (ID: 2)```
 - list
-- 
+
 ```
 ID  Date       Description  Amount
 1   2025-01-06  Lunch        $20
