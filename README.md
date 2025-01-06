@@ -46,7 +46,7 @@ The list of commands and their expected output is shown below:
 ```
 ID  Date       Description  Amount
 1   2025-01-06  Lunch        $20
-2   2024-01-06  Dinner       $10
+2   2025-01-06  Dinner       $10
 ```
 
 - delete --id 2
