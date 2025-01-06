@@ -31,18 +31,33 @@ The list of commands and their expected output is shown below:
 
 - add --description "Lunch" --amount 20
 
+```Expense added successfully (ID: 1)```
+
 - add --description "Dinner" --amount 10
 
+- ```Expense added successfully (ID: 2)```
 - list
-
-- summary
+- 
+```
+ID  Date       Description  Amount
+1   2025-01-06  Lunch        $20
+2   2024-01-06  Dinner       $10
+```
 
 - delete --id 2
 
+- ```Expense deleted successfully (ID: 2)```
+ 
+
 - summary
 
-- summary --month 8
+```Total expenses: $30```
 
+- summary --month 1
+
+```
+Total expenses for month 1: $30
+```
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
